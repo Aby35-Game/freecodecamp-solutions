@@ -1,11 +1,9 @@
 // Setup
-var myArray = [];
+const myArray = [];
 
 // Only change code below this line.
-
-var myArray = [];
-var i = 0;
-while(i < 5) {
+let i = 5;
+while(i >= 0) {
   myArray.push(i);
-  i++;
+  i--;
 }
