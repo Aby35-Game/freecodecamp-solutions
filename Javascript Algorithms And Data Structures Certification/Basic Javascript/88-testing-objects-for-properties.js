@@ -5,13 +5,12 @@ var myObj = {
   bed: "sleigh"
 };
 
-function checkObj(checkProp) {
-  // Your Code Here
-  var isCheckPropPresent=myObj.hasOwnProperty(checkProp);
-  if(isCheckPropPresent){
-    return myObj[checkProp];
+function checkObj(obj, checkProp) {
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  } else {
+    return "Not Found";
   }
-  return "Not Found";
 }
 
 // Test your code by modifying these values
