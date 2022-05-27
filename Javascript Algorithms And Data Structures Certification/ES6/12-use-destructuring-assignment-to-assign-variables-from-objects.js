@@ -1,14 +1,11 @@
-const AVG_TEMPERATURES = {
-  today: 77.5,
-  tomorrow: 79
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
 };
 
-function getTempOfTmrw(avgTemperatures) {
-  "use strict";
-  // change code below this line
-  const {tomorrow: tempOfTomorrow} = avgTemperatures; // change this line
-  // change code above this line
-  return tempOfTomorrow;
-}
+// Only change code below this line
 
-console.log(getTempOfTmrw(AVG_TEMPERATURES)); // should be 79
+const {today, tomorrow} = HIGH_TEMPERATURES;
+
+// Only change code above this line
